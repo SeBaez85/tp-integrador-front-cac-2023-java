@@ -1,0 +1,43 @@
+
+.a-comp-tickets{
+    color: #2D9545;
+    
+}
+
+.img-carousel{
+    
+    filter: brightness(50%)
+}
+
+.p-carousel{
+    text-shadow: 2px 2px black;
+}
+
+.btn-comp-tickets{
+    background-color: #29A744;
+    color: white;
+}
+
+.btn-react{
+    background-color: #17A2B7;
+    color: white;
+}
+
+.lugar-fecha-der{
+    background-color: #353A40;
+    color: white;
+}
+
+.btn-enviar{
+    background-color: #96C93E;
+    color: white;
+}
+
+.foot-cont{
+    background-color: #1F5271;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
