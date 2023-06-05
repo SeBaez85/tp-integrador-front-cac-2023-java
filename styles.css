@@ -1,43 +1,81 @@
-
-.a-comp-tickets{
-    color: #2D9545;
-    
+.a-comp-tickets {
+  color: #2d9545;
 }
 
-.img-carousel{
-    
-    filter: brightness(50%)
+.img-carousel {
+  filter: brightness(50%);
 }
 
-.p-carousel{
-    text-shadow: 2px 2px black;
+.p-carousel {
+  text-shadow: 2px 2px black;
 }
 
-.btn-comp-tickets{
-    background-color: #29A744;
-    color: white;
+.btn-comp-tickets {
+  background-color: #29a744;
+  color: white;
 }
 
-.btn-react{
-    background-color: #17A2B7;
-    color: white;
+.btn-react {
+  background-color: #17a2b7;
+  color: white;
 }
 
-.lugar-fecha-der{
-    background-color: #353A40;
-    color: white;
+.lugar-fecha-der {
+  background-color: #353a40;
+  color: white;
 }
 
-.btn-enviar{
-    background-color: #96C93E;
-    color: white;
+.btn-enviar {
+  background-color: #96c93e;
+  color: white;
 }
 
-.foot-cont{
-    background-color: #1F5271;
+.btn-enviar:hover{
+  background-color: orange;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+.foot-cont {
+  background-color: #1f5271;
+}
+
+.estudiantes {
+  border-color: #037dfe;
+  border-style: solid;
+}
+
+.trainee {
+  border-color: #75c8d5;
+  border-style: solid;
+}
+
+.junior {
+  border-color: #ffe9a6;
+  border-style: solid;
+}
+
+.total-pagar{
+  background-color: #cce5ff;
+  color: darkblue;
+  border-radius: 5px;
+  height: 40px;
+  align-items: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
